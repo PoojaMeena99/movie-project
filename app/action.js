@@ -1,9 +1,16 @@
+import Like from './Like.js';
+import Dislike  from './Dislike.js';
+import Delete from './Delete.js';
+
+
 function Action(){
     return(
  
           <div className="Action">
-                <div><img className="like" src="like.png"/></div>
-                <div><img className="dishlike" src="dislike.png"/></div>
+              <Delete />  
+              <Like />
+              <Dislike />
+             
            </div>
               
                  

@@ -3,7 +3,8 @@ import Head from './head.js';
 import Row from './movie_row.js';
 import Footer from'./footer.js';
 import {movie_list}  from './movie_list.js';
-
+import Like from './Like.js';
+import React, { useState} from 'react';
 function Page(){
     return(
             <div>
@@ -17,8 +18,8 @@ function Page(){
                     junor={movie.junor}
                     description={movie.description}
                  / >
-     
                 ))}
+                <Like />
                 <Footer />
                 
            </div>

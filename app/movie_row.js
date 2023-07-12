@@ -1,4 +1,5 @@
-import Action from './Action.js';
+import Action  from './action.js';
+
 function Row(props) {
   const { movie } = props;
 
@@ -13,7 +14,10 @@ function Row(props) {
         <h3>Description</h3>
         <p>{props.description}</p>
       </div>
-      <Action />
+      <div>
+        <Action />
+      </div>
+      
     </div>
     
   );
