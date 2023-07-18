@@ -1,19 +1,20 @@
-import Like from './Like.js';
-import Dislike  from './Dislike.js';
+
 import Delete from './Delete.js';
+import  LikeDislike  from './Rating.js';
 
 
-function Action(){
+function Action(props){
     return(
  
           <div className="Action">
-              <Delete />  
-              <Like />
-              <Dislike />
-             
-           </div>
-              
-                 
+              <LikeDislike
+                movie={props.movie}
+                onLikeDislike={props.onLikeDislike}
+                
+               
+               />
+              <Delete />         
+          </div>                
     );
 };
 export default Action;     

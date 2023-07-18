@@ -1,12 +1,13 @@
+import React from 'react';
 import Action  from './action.js';
+import LikeDislikeButton  from './Rating.js';
 
-function Row(props) {
-  const { movie } = props;
-
-  return (
+const Row =(props)=> {
+  
+    return (
     <div className="one_row">
-      <div>
-        <img className="imag_row" src={props.image} alt="Movie Poster" />
+       <div>
+         <img className="imag_row" src={props.image} alt="Movie Poster" />
       </div>
       <div className="movie_row">
         <h1>{props.name}</h1>
@@ -15,12 +16,15 @@ function Row(props) {
         <p>{props.description}</p>
       </div>
       <div>
-        <Action />
-      </div>
-      
+         <Action 
+             movie={props.movie}
+             onLikeDislike={props.onLikeDislike}
+         />
+       </div>
     </div>
     
   );
-};
     
+
+};
 export default Row;
