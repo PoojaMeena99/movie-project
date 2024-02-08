@@ -1,6 +1,6 @@
 export const movie_list = 
 [{  id :0,
-	image: 'dearzindagi.png',
+	image: 'Dear zindagi.png',
 	movie: 'Dear Zindagi',
 	year: '2016',
 	time: '2h 31m',
