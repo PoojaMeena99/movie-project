@@ -20,6 +20,8 @@ const Page = () => {
       <Head />
       {sortedMovies.map((movie) => (
         <Row
+
+          key={movie.id}
           image={movie.image}
           name={movie.movie}
           year={movie.year}
