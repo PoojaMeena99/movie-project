@@ -7,18 +7,17 @@ import Footer from './footer.js';
 import { movie_list } from './movie_list.js';
 
 const Page = () => {
-const [sortedMovies, setSortedMovies] = useState( movie_list);
+  const [sortedMovies, setSortedMovies] = useState(movie_list);
 
   const sortMoviesByLikes = () => {
     const sortedByLikes = [...sortedMovies].sort((a, b) => b.likes - a.likes);
     setSortedMovies(sortedByLikes);
   };
-  
 
-  
+
   return (
     <div>
-      <Head/>
+      <Head />
       {sortedMovies.map((movie) => (
         <Row
           image={movie.image}

@@ -1,120 +1,136 @@
-body{
-    background-color:black;
-    }
-.head_image{
-    margin-top:50px;
-    margin-left:140px;
-    margin-bottom:50px;
-    float:left;
-    }
-    
-.heading{
-    border-bottom:3px solid red;
-    height:160px;
-    width:auto;  
-}    
-.movie_name{
-    float:left;
-    margin-top:65px;
-    margin-left:35px;
-    margin-bottom:50px;
-    }
-.addmovie{
-    float:right;
-    margin-top:65px;
-    margin-right:50px;
-    margin-bottom:50px;
-    }
-.watch{
-    color:white;
-    float:right;
-    margin-top:65px;
-    margin-right:100px;
-    margin-bottom:50px;
-    }      
-.one_row{
-    border:white 1px solid;
-    height:340px;
-    width:1350px;
-    margin:35px auto 20px auto;
-    }          
-.body_watch{
-    margin-left:240px;
-    margin-top:80px;
-    }
-.imag_row{
-    height:313px;
-    border:red 1px solid;
-    float:left;
-    }    
-.discription{
-    border:1px solid yellow;
-    float:left;
-    height:230px;
-    width:1065px;
-    margin-left:20px;
-}  
+body {
+    background-color: black;
+}
 
-.Action{
-    border:green 1px solid ;
-    width:1050px;
-    height:40px;
-    margin-top:20px;
-    position:absolute;
-    margin-left:275px;
-    }
-.like{
-      float:left;
-      }      
-.dislike{
-      float:left;
-      margin-top:3px;
-      }      
-.Circle{ 
+.head_image {
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    float: left;
+}
 
-      float:left;
-      width:40px;
-      height:40px;
-      border-radius:50%;
-      background:gray;
-      color:white;
-      text-align:center;
-      line-height:40px;
-}           
-                
-.footer{
+.heading {
+    border-bottom: 3px solid red;
+    height: 160px;
+    width: auto;
+}
+
+.movie_name {
+    float: left;
+    margin-top: 65px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.addmovie {
+    float: right;
+    margin-top: 65px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.watch {
+    color: white;
+    float: right;
+    margin-top: 65px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.one_row {
+    border-bottom: white 1px solid;
+    height: 340px;
+    width: 1350px;
+    margin: 35px auto 20px auto;
+}
+
+.body_watch {
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.imag_row {
+    height: 313px;
+    /* border: red 1px solid; */
+    float: left;
+}
+
+.discription {
+    /* border: 1px solid yellow; */
+    float: left;
+    height: 230px;
+    width: 1065px;
+    margin-left: 20px;
+}
+
+.Action {
+    /* border: green 1px solid; */
+    width: 1050px;
+    height: 40px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 275px;
+}
+
+.like {
+    float: left;
+}
+
+.dislike {
+    float: left;
+    margin-top: 3px;
+}
+
+.Circle {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: gray;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 8px;
+}
+
+.footer {
     background: #272734;
-    margin-top:230px;
-    height:140px;
-    width:auto;
-    }
-.imag_foot{
-    margin-top:80px;
-    margin-left:71px;
-    } 
-.new{
-    color:white;
-    margin-left:231px;
-    margin-top:70px;
-    }
-.new1{
-    margin-left:231px;
-    color:white;
-    }
-.newmovie{
-    margin-left:71px;
-    margin-top:10px;
-    }
-    
-        
-.movie_row{
-    border:solid red 1px;
-    height:250px;
-    width:1050px;
-    margin-left:275px;
-    color:white
-    }
+    margin-top: 230px;
+    height: 140px;
+    width: auto;
+}
 
-.Delete{
-    float:right;
-    }
+.imag_foot {
+    margin-top: 80px;
+    margin-left: 71px;
+    margin-right: 5px;
+}
+
+.new {
+    color: white;
+    margin-left: 231px;
+    margin-top: 70px;
+}
+
+.new1 {
+    margin-left: 231px;
+    color: white;
+}
+
+.newmovie {
+    margin-left: 71px;
+    margin-top: 10px;
+}
+
+
+.movie_row {
+    /* border: solid red 1px; */
+    height: 250px;
+    width: 1050px;
+    margin-left: 275px;
+    color: white
+}
+
+.Delete {
+    float: right;
+}

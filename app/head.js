@@ -1,15 +1,15 @@
-function Head(){
-    return(
+function Head() {
+    return (
         <>
             <div className="heading">
-                <img className="head_image" src = "Vector.png"/>
-                <img className="movie_name" src="MovieHub.png"/>
-                <img className="addmovie" src="AddMovie.png"/>
-                <img className="watch" src="Watch.png"/>
-            </div>  
-            <div className="body_watch"> <img  src="Watch.png"/></div>
-       </>     
-      );
+                <img className="head_image" src="Icon - Logo-1.png" />
+                <img className="movie_name" src="Movie Hub.png" />
+                <img className="addmovie" src="addNewMovieText.png" />
+                <img className="watch" src="watchText.png" />
+            </div>
+            <div className="body_watch"> <img src="watchText.png" /></div>
+        </>
+    );
 };
 export default Head;
 
